@@ -1,5 +1,7 @@
 # 🌐 Terrestrial's Personal Portfolio
 
+**🚀 Live Site:** [terrestrial-portfolio](https://terrestrial-portfolio.vercel.app/)
+
 Welcome to my portfolio repository! Everything you see here was designed and built from scratch.
 
 ### 🤝 Want Your Own Portfolio?
@@ -16,3 +18,4 @@ I'm **Terrestrial**, a developer who bridges the gap between software and hardwa
 ### 📫 Let's Connect
 Want to collaborate, talk tech, or hire me to build your portfolio? 
 Reach out via my socials: [Linktree](https://linktr.ee/terrestrialyt)
+or u can go to my portfolio and get all my social there as well 
