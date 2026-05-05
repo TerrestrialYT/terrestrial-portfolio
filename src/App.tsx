@@ -324,17 +324,17 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center bg-black/50 backdrop-blur-md border-b border-white/5 transition-all duration-500">
+      <nav className="fixed top-0 left-0 right-0 z-50 px-4 md:px-8 py-3 md:py-4 flex justify-between items-center bg-black/50 backdrop-blur-md border-b border-white/5 transition-all duration-500">
         <button 
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="flex items-center gap-4 cursor-pointer group"
+          className="flex items-center gap-2 md:gap-4 cursor-pointer group"
         >
-          <TytLogo className="w-8 h-8 text-accent group-hover:scale-110 transition-transform" />
+          <TytLogo className="w-6 h-6 md:w-8 md:h-8 text-accent group-hover:scale-110 transition-transform" />
         </button>
 
-        {/* Centered Portfolio Text */}
-        <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none h-full flex items-center">
-          <span className="text-2xl font-display font-black tracking-[0.6em] text-white uppercase leading-none opacity-80">Portfolio</span>
+        {/* Centered Portfolio Text - Hidden on mobile to prevent overlap */}
+        <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none h-full hidden md:flex items-center">
+          <span className="text-xl lg:text-2xl font-display font-black tracking-[0.3em] lg:tracking-[0.6em] text-white uppercase leading-none opacity-80">Portfolio</span>
         </div>
 
         <div className="flex items-center">
