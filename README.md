@@ -1,6 +1,6 @@
 # 🌐 Terrestrial's Personal Portfolio
 
-**🚀 Live Site:** [terrestrial-portfolio](https://terrestrial-portfolio.vercel.app/)
+**🚀 Live Site:** [terrestrial-portfolio}(https://terrestrialyt.com/))
 
 Welcome to my portfolio repository! Everything you see here was designed and built from scratch.
 
